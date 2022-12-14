@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+#myLogo {
+  width: 50px;
+  padding: 0px;
+  margin-left: 20px;
+}
+.header {
+  width: 100%;
+  margin: 10px !important;
+   
+}
+.menu-itema{
+    color: brown ;
+    
+    text-decoration: none;
+    
+    padding: 10px;
+    border-radius: 10px;
+   
+  
+}
+.menu-itema:hover{
+    color: #ff31bc;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+
+}
+.bg-myHed {
+
+  background: rgba(255, 255, 255,.85);
+  border-radius: 15px;
+  margin: 10px;
+ 
+  
+
+}
+.logo{
+    color:brown;
+}
+.home-bg{
+    position: absolute;
+    top: 00px;
+    width: 100%;
+    background: #ff31bc url(./assests/home-bg1.jpg);
+    height: 110vh;
+    background-size: cover;
+
+}
+#home_curve{
+    position: absolute;
+    bottom: 0px;
+    fill: #fff;
+    
+}
+.rl-name
+{
+   
+    background: rgba(0, 0, 0,.25);
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 20px;
+    border-radius: 15px;
+}
+.rl-name-svg{
+    width: 100%;
+    
+
+}
+svg #text1
+{
+    font-size: 110px;
+    fill: rgba(255, 255, 255, .2);
+    font-weight: bold;
+    stroke-width: 1.5px;
+    stroke: white;
+    stroke-dasharray: 70;
+    stroke-linejoin: round;
+    animation: borderanimation 1s linear infinite;
+}
+@keyframes borderanimation {
+    100%{
+        stroke-dashoffset: 140;
+    }
+    
+}
+#text3{
+    font-size: 80px;
+    fill: rgba(255, 255, 255, .2);
+    font-weight: bold;
+    stroke-width: 1.5px;
+    stroke: white;
+    stroke-dasharray: 70;
+    stroke-linejoin: round;
+    animation: borderanimation 1s linear infinite;
+}
+svg #text2{
+    font-size: 80px;
+    fill: rgba(255, 255, 255, .2);
+    font-weight: bold;
+    stroke-width: 1.5px;
+    stroke: white;
+    stroke-dasharray: 70;
+    stroke-linejoin: round;
+    animation: borderanimation 1s linear infinite;
+}
